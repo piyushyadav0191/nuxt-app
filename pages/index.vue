@@ -10,7 +10,6 @@
 
 <script lang="ts" setup>
 const user = useUser();
-console.log(user)
 
 definePageMeta({
     middleware: "protected",
