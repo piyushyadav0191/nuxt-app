@@ -9,5 +9,6 @@ import Navbar from '~/components/resuables/Navbar.vue';
     <div class="pb-20 pt-[220px]">
       <slot />
     </div>
+    <ModalAuthRegister />
   </div>
 </template>
