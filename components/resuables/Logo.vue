@@ -1,5 +1,4 @@
 <template>
-   <img @click="navigateTo('/')" src="/logo.png" alt="Nuxt" class="hidden md:block cursor-pointer  h-[50px] w-[50px] ">
+  <h1 @click="navigateTo('/')" class="font-bold text-2xl text-teal-500">Nuxt</h1>
 </template>
-<script setup lang="ts">
-</script>
+
